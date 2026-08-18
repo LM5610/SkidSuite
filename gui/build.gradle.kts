@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     implementation(project(":threadtear-core"))
-
+    implementation("com.github.leibnitz27:cfr:0.152")
     implementation("com.github.weisj:darklaf-core") { isChanging = true }
     implementation("com.github.weisj:darklaf-theme") { isChanging = true }
     implementation("com.github.weisj:darklaf-property-loader") { isChanging = true }
